@@ -1,0 +1,12 @@
+{
+  "title": "Datos",
+  "name": "Luis Muñoz",
+  "nationality": "Peruano",
+  "age": "39",
+  "label": {
+    "name": "Nombre",
+    "nationality": "Nacionalidad",
+    "age": "Edad",
+    "buttontext": "Cambiar idioma"
+  }
+}

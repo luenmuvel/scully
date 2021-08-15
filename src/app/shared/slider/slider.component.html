@@ -1,0 +1,50 @@
+<div class="slider-container">
+  <swiper
+    [slidesPerView]="1"
+    [spaceBetween]="50"
+    (swiper)="onSwiper($event)"
+    (slideChange)="onSlideChange()"
+    [navigation]="false"
+    [pagination]="{ clickable: true }"
+  >
+    <ng-template swiperSlide>
+      <div class="slide-container">
+        <h1>Slide 1</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus,
+          dolorum. Id, iste, ratione vero fugit assumenda eaque quos qui
+          architecto, illum doloribus quas rem harum tempora aspernatur expedita
+          vel consequuntur. Nulla, quas explicabo praesentium corrupti
+          consequatur quibusdam itaque, porro nobis sed alias incidunt culpa!
+          Incidunt cupiditate sunt deserunt doloribus, cumque delectus. Nesciunt
+          velit quis sint ex similique modi voluptas molestias.
+        </p>
+      </div>
+    </ng-template>
+    <ng-template swiperSlide>
+      <div class="slide-container">
+        <h1>Slide 2</h1>
+      </div>
+    </ng-template>
+    <ng-template swiperSlide>
+      <div class="slide-container">
+        <h1>Slide 3</h1>
+      </div>
+    </ng-template>
+    <ng-template swiperSlide>
+      <div class="slide-container">
+        <h1>Slide 4</h1>
+      </div>
+    </ng-template>
+    <ng-template swiperSlide>
+      <div class="slide-container">
+        <h1>Slide 5</h1>
+      </div>
+    </ng-template>
+    <ng-template swiperSlide>
+      <div class="slide-container">
+        <h1>Slide 6</h1>
+      </div>
+    </ng-template>
+  </swiper>
+</div>

@@ -6,12 +6,28 @@
 */
 {
   "files": [],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "@services/*": ["app/services/*"]
+    },
+    "experimentalDecorators": true
+  },
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "preserveWhitespaces": true
+  },
   "references": [
     {
       "path": "./tsconfig.app.json"
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./tsconfig.server.json"
     }
-]
+  ]
 }
